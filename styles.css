@@ -160,7 +160,9 @@ canvas#particleCanvas {
     opacity: 1;
     top: -50px; /* Slightly move the message up when hovered */
 }
-
+.social-btn.dribbble {
+    background: #ea4c89; /* Added color for Dribbble button */
+}
 .btn:hover {
     background: linear-gradient(45deg, #42e695, #3bb2b8);
     transform: scale(1.1);
